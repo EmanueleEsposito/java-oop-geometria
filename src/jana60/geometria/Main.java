@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//Chiedere all0utente di inserire i valori di base e altezza
+//Chiedere all'utente di inserire i valori di base e altezza
 
 		Scanner scan = new Scanner(System.in);
 		Rettangolo nuovoRettangolo = new Rettangolo();
@@ -19,6 +19,7 @@ public class Main {
 		baseUtenteRettangolo = scan.nextInt();
 		nuovoRettangolo.altezza = altezzaUtenteRettangolo;
 		nuovoRettangolo.base = baseUtenteRettangolo;
+
 //Stampare a schermo area e perimetro del rettangolo
 		System.out.println("L'area del rettangolo è: " + nuovoRettangolo.areaDelRettangolo());
 		System.out.println("Il perimetro del rettangolo è: " + nuovoRettangolo.perimetroDelRettangolo());
